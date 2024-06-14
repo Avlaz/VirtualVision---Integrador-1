@@ -1,0 +1,39 @@
+        	GitHub - Versionamento
+----------------------------------------------------------------------------------------------------------
+
+ - versoniamento de código ou arquivos;
+ - repositório / backup;
+ - hospedágem.
+
+
+	- Criar repositório no terminal / Novo projeto :3c
+
+		#- git init 			(Iniciar o repositório)
+		#- git branch -M main 		(se necessario mudar de branch)
+		#- git add . 			(praparar as alterações)
+		#- git commit -m "alpha.00 ; html5/src" (Salvar as alterações)
+
+		#- // Incluir no repositório remoto no ambiente local (criar um ponto de sincronismo)
+
+		#- git remote add (nome do projeto) https://github.com/AxiosJs/VirtualVision---Integrador-1.git
+
+		#- git push -u virtaulvision1 main (enviar/"empurrar" alterações as alterações (commit))
+	
+	 - mudar para Main:
+
+		#- git branch -M main
+
+
+	- publicar alteração do repositório/projeto:	//Envio
+		
+		#1 git add .
+		#2 git commit -m "alpha.00 ; html5/src"
+		#3 git push -u virtaulvision1 main
+
+	- trazer informações do repositório remoto para o local do github:	//Puxar
+		
+		#1 git pull projeto1 main
+
+----------------------------------------------------------------------------------------------------------
+
+- https://github.com/AxiosJs/VirtualVision---Integrador-1.git
