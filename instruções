@@ -33,7 +33,7 @@
 	- publicar alteração do repositório/projeto na main:	//Envio principal
 		
 		#1 git add .
-		#2 git commit -m "alpha.00.0 ; html5/src"
+		#2 git commit -m "alpha.00.0 ; html5/src" 
 		#3 git push -u virtualvision1 main
 
 	- trazer informações do repositório remoto para o local do github:	//Puxar
