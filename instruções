@@ -25,24 +25,15 @@
 
     - publicar alteração para revisão: //envio para validação
 
-<<<<<<< HEAD
-        criar a branch local: ( git checkout -b nome_da_branch)
-        Para alternar entre branchs ( git checkout nome_da_branch)
-        git push -u projeto1 nome_da_branch
-
-
-	- publicar alteração do repositório/projeto na main:	//Envio
-=======
         criar a branch local: ( git checkout -b validar)
         Para alternar entre branchs ( git checkout validar)
         git push -u projeto1 validar
 
 
 	- publicar alteração do repositório/projeto na main:	//Envio principal
->>>>>>> aebc9060fa1657f3d5ae3df2cc90ce4360419379
 		
 		#1 git add .
-		#2 git commit -m "alpha.00.0 ; html5/src"
+		#2 git commit -m "alpha.00.0 ; html5/src" 
 		#3 git push -u virtualvision1 main
 
 	- trazer informações do repositório remoto para o local do github:	//Puxar
