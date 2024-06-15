@@ -15,7 +15,7 @@
 
 		#- // Incluir no repositório remoto no ambiente local (criar um ponto de sincronismo)
 
-		#- git remote add (nome do projeto) https://github.com/AxiosJs/VirtualVision---Integrador-1.git
+		#- git remote add virtualvision1 https://github.com/AxiosJs/VirtualVision---Integrador-1.git
 
 		#- git push -u virtualvision1 main (enviar/"empurrar" alterações as alterações (commit))
 	
@@ -25,12 +25,21 @@
 
     - publicar alteração para revisão: //envio para validação
 
+<<<<<<< HEAD
         criar a branch local: ( git checkout -b nome_da_branch)
         Para alternar entre branchs ( git checkout nome_da_branch)
         git push -u projeto1 nome_da_branch
 
 
 	- publicar alteração do repositório/projeto na main:	//Envio
+=======
+        criar a branch local: ( git checkout -b validar)
+        Para alternar entre branchs ( git checkout validar)
+        git push -u projeto1 validar
+
+
+	- publicar alteração do repositório/projeto na main:	//Envio principal
+>>>>>>> aebc9060fa1657f3d5ae3df2cc90ce4360419379
 		
 		#1 git add .
 		#2 git commit -m "alpha.00.0 ; html5/src"
