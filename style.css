@@ -21,8 +21,25 @@
     animation: animacao-btn-conta 1s linear;
 }
 
-.btn-pesquisar:
+#btn-pesquisar {
+    border: #3BA29D;
+    background-color: #25135A;
+    border-radius:0px 25px 25px 0px ;
+    border: #3BA29D 2px solid;
+}
 
+#pesquisa {
+    border: #3BA29D;
+    background-color: #160d18;
+    border-radius:25px 0px 0px 25px ;
+    border: #3BA29D 2px solid;
+    color: #3BA29D;
+}
+
+.list-group-item-primary{
+    background-color:transparent;
+
+}
 
 @keyframes animacao-btn-conta {
     0% { content: "Criar conta";

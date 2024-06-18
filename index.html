@@ -14,22 +14,27 @@
 
 <body class="backgroun-main">
   <!--Navbar-->
-  <header class="b-border-azul">
+  <header class="b-border-azul background">
     <nav class="navbar">
       <div class="row container-fluid ">
         <div class="col">
           <a class="navbar-brand" href="#"><img src="src/imgs/header_logo.svg" alt="Brasão"></a>
         </div>
         <div class="col d-flex justify-content-center">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><img src="/src/icons/lupa-pesquisar.svg" alt="pesquisar"></button>
+            <form class="d-flex " role="search">
+              <input class="form-control " id="pesquisa" type="search" placeholder="" aria-label="">
+              <button class="btn " id="btn-pesquisar" type="submit"><img src="/src/icons/lupa-pesquisar.svg" alt="pesquisar"></button>
             </form>
         </div>
         <div class="col"> 
           <button class="btn-criarconta float-end" type="submit">Criar Conta</button> 
         </div>
       </div>
+      <ul class="text-light list-group list-group-horizontal">
+        <li class="list-group-item-primary ">Home</li>
+        <li class="list-group-item-primary p-60px">Jogos</li>
+        
+      </ul>
     </nav>
   </header>
 
