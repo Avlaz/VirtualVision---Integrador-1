@@ -1,3 +1,43 @@
 .background {
     background-color: #231626;
 }
+.backgroun-main {
+    background-color: #160d18;
+}
+
+.b-border-azul {
+    border-bottom: #3BA29D 2px solid;
+}
+
+.btn-criarconta {
+    border: #3BA29D 2px solid;
+    border-radius: 10px 0px 10px 0px;
+    color: #fff;
+    background-color: #231626;
+
+}
+
+.btn-criarconta:hover{
+    animation: animacao-btn-conta 1s linear;
+}
+
+.btn-pesquisar:
+
+
+@keyframes animacao-btn-conta {
+    0% { content: "Criar conta";
+        border: #3BA29D 2px solid;
+        border-radius: 10px 0px 10px 0px;
+        color: #fff;
+        background-color: #231626;}
+
+    50% { content: ". . .";}
+    
+    100% { content: "CRIAR CONTA >>";
+        border: #3BA29D 2px solid;
+        border-radius: 10px 0px 10px 0px;
+        color: #3BA29D;
+        background-color: #231626;
+        text-transform: uppercase;
+    }
+}
