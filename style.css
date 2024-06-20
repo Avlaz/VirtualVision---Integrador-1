@@ -34,11 +34,17 @@
     border-radius:25px 0px 0px 25px ;
     border: #3BA29D 2px solid;
     color: #3BA29D;
+    width: 500px;
 }
 
-.list-group-item-primary{
-    background-color:transparent;
-
+.link-nav {
+    text-decoration: none;
+    color: #fff;
+}
+.link-nav:hover {
+    text-decoration:underline;
+    color: #3BA29D;
+    font-size: 17px;
 }
 
 @keyframes animacao-btn-conta {
