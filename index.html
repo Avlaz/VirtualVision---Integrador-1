@@ -15,19 +15,19 @@
 <body class="backgroun-main">
   <!--Navbar-->
   <header class="b-border-azul background">
-    <nav class="navbar">
+    <nav class=" container navbar">
       <div class="row container-fluid">
-        <div class="col ">
+        <div class="col" id="brasao">
           <a class="navbar-brand" href="#"><img src="src/imgs/header_logo.svg" alt="Brasão"></a>
         </div>
-        <div class="col d-flex justify-content-center">
-            <form class="d-flex " role="search">
+        <div class="col d-flex">
+            <form class="d-flex" role="search">
               <input class="form-control " id="pesquisa" type="search" placeholder="" aria-label="">
               <button class="btn" id="btn-pesquisar" type="submit"><img src="src/icons/lupa-pesquisar.svg" alt="pesquisar"></button>
             </form>
         </div>
-        <div class="col"> 
-          <button class="btn-criarconta float-end" type="submit">Criar Conta</button> 
+        <div class="col-2"> 
+          <button class="btn-criarconta" type="submit">Criar Conta</button> 
         </div>
       </div>
       <div class="row container-fluid d-flex justify-content-center">
@@ -39,21 +39,59 @@
     </nav>
   </header>
 
+  <div class="row container-fluid d-flex justify-content-center"></div>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="src/imgs/Rectangle 3.svg" width=20px class="d-block w-100" alt="...">
+        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/">
+        <img src="src/imgs/banner1.svg" width=30px class="d-block w-100" alt="...">
+        </a>
       </div>
       <div class="carousel-item">
-        <img src="src/imgs/Rectangle 4.svg" width=20px class="d-block w-100" alt="...">
+        <a href="https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/">
+          <img src="src/imgs/banner2.svg" width=30px class="d-block w-100" alt="...">
+        </a>
       </div>
       <div class="carousel-item">
-        <img src="src/imgs/Rectangle 5.svg" width=20px class="d-block w-100" alt="...">
+        <a href="https://store.steampowered.com/app/2504480/Indigo_Park_Chapter_1/">
+        <img src="src/imgs/banner3.svg" width=30px class="d-block w-100" alt="...">
+        </a>
       </div>
     </div>
   </div>
 
   <!-- --main-- -->
+    <section class="d-flex align-items-center categorias">
+      <h1 class="Destaque">Destaques:</h1>
+
+    </section>
+    <!---Card-->
+    <div class="container">
+      
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-4">
+        <div class="col">
+          <div class="card h-100 shadow-lg" id="Card1">
+            <img src="src/imgs/Thief.png" width="296px" alt="ImagemCard" class="rounded">
+            <div class="card-body pb-3">
+              <div class="d-flex align-content-center justify-content-between">
+                <a href="#" class="badge bg-secondary p-1">Simulador</a>
+                
+              </div>
+              <h3 class="">Thief Simulador 2</h3>
+              <hr>
+              <p class="Preco1">R$ 59,99</p>
+              <a href="" class="btn-visualizar" type="submit"> VISUALIZAR <img src="src/imgs/pixelarticons_arrow-down.svg" id="icon" width="50px" height="44px" alt=""></a> 
+              
+            </div>
+
+
+
+
+
+
+
+  <body>
+
 
 
     <!--Script-->
