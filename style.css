@@ -14,7 +14,7 @@
     border-radius: 10px 0px 10px 0px;
     color: #fff;
     background-color: #231626;
-
+    width:100px;
 }
 
 .btn-criarconta:hover{
@@ -45,6 +45,67 @@
     text-decoration:underline;
     color: #3BA29D;
     font-size: 17px;
+}
+
+.linha-banner {
+    color: #3BA29D;
+    border: 3px solid; 
+}
+
+.categorias {
+    background-color: #231626;
+    border-bottom: #3BA29D 2px solid;
+    border-top: #3BA29D 2px solid;
+    color: #fff;
+}
+
+.categorias {
+    height: 98px;
+}
+
+.Destaque {
+    display: flex;
+    margin-left: 167px;
+    font-style: italic;
+    font-weight: 250;
+}
+
+#Card1 {
+    border: #3BA29D 2px solid;
+    width: 300px;
+    border-radius: 5%;
+    margin-top: 20px;
+    background-color: #231626;
+    color: #fff;
+}
+
+.Preco1{
+    color: #75BC00;
+    font-size: xx-large;
+    padding: 0px 0px -20px 0px;
+}
+
+.btn-visualizar {
+    border: #3BA29D 2px solid;
+    border-radius: 20px 0px 0px 0px;
+    color: #9747FF;
+    font-size: x-large;
+    background-color: #231626;
+    width:250px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    
+    
+}
+
+#brasao {
+    width: 173px;
+}
+
+#icon {
+    padding-top: -100px;
 }
 
 @keyframes animacao-btn-conta {
