@@ -9,6 +9,10 @@
     border-bottom: #3BA29D 2px solid;
 }
 
+.badge-border-azul {
+    border: #3BA29D 1px solid;
+}
+
 .btn-criarconta {
     border: #3BA29D 2px solid;
     border-radius: 10px 0px 10px 0px;
@@ -122,6 +126,5 @@
         border-radius: 10px 0px 10px 0px;
         color: #3BA29D;
         background-color: #231626;
-        text-transform: uppercase;
     }
 }
