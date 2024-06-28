@@ -25,6 +25,12 @@
     animation: animacao-btn-conta 1s linear;
 }
 
+hr {
+    padding: 0px!important;
+    margin: 0px!important;
+    color: #3BA29D;
+}
+
 #btn-pesquisar {
     border: #3BA29D;
     background-color: #25135A;
@@ -102,6 +108,15 @@
     padding-top: 2px;
     
     
+}
+
+.linha-footer {
+    margin: 10px!important;
+    border: #3BA29D solid 1px;
+}
+
+.footer-text {
+    color: #fff;
 }
 
 .ori {
