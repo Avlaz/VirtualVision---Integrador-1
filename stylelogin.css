@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #160D18;
+}
+/* container */
+.container{
+    display: flex;
+    height: 100vh;
+  /*  border: 1px solid black; */
+    box-shadow: 10px 10px #23145b;
+    align-content: center;
+}
+/* login form */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #160D18;
+    border-right: 3px solid #3BA29D;
+}
+.form h2{
+    font-size: 3rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 2px solid #3BA29D;
+    outline: none;
+    border-radius: 20px;
+    background-color: #160D18;
+    color: #9747FF;
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #23145b;
+}
+.form a {
+    text-decoration: none;
+    color: #3BA29D;
+    margin-top: 20px;
+}
+.form a:hover {
+    color: #23145b;
+}
+
+/*  lado direito */
+.side{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 55%;
+    background-color: #23145b;
+}
+.side {
+    background-image: url(capa\ login.jpg);
+    background-attachment:initial;
+    
+}
+
+h2 {
+    color: #fff;
+}
